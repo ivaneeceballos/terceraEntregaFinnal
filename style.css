@@ -1,0 +1,29 @@
+.jugador {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: lightblue;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+  }
+  
+  .seleccionable:hover {
+    background-color: cornflowerblue;
+  }
+  
+  .seleccionado {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  #opciones {
+    margin-top: 20px;
+  }
+  
+  .oculto {
+    display: none;
+  }
+  
+  
